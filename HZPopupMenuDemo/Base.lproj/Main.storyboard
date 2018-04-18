@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmf-TM-urD">
+                                <rect key="frame" x="28" y="28" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="7xQ-Gr-pE4"/>
+                                    <constraint firstAttribute="width" constant="22" id="WgB-Fi-7o3"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="onPopupClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xPi-Kl-wi4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3V-Mt-Jn9">
+                                <rect key="frame" x="325" y="28" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="PrM-fj-Yyw"/>
+                                    <constraint firstAttribute="width" constant="22" id="qeJ-Sr-iDl"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="onPopupClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yTu-zI-rTJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLN-ie-Yqy">
+                                <rect key="frame" x="28" y="625" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="cWe-lW-0Xe"/>
+                                    <constraint firstAttribute="height" constant="22" id="yf4-8p-ipi"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="onPopupClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QzQ-BR-bcl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Nb-YJ-w9e">
+                                <rect key="frame" x="325" y="625" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="FyO-UR-tIz"/>
+                                    <constraint firstAttribute="width" constant="22" id="e8S-eZ-eSE"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="onPopupClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PSi-ON-kjc"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X1B-mx-Buz">
+                                <rect key="frame" x="57.5" y="239.5" width="260" height="188"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ue-Od-tN3">
+                                        <rect key="frame" x="100" y="64" width="60" height="60"/>
+                                        <color key="backgroundColor" red="1" green="0.3916847618" blue="0.2979644991" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="4xZ-rh-Ov9"/>
+                                            <constraint firstAttribute="height" constant="60" id="cef-PO-00H"/>
+                                        </constraints>
+                                        <state key="normal" title="测试">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onTestClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tLJ-Rb-YJV"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.99640788449999995" blue="0.77765260199999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="A7j-iq-q85"/>
+                                    <constraint firstAttribute="height" constant="188" id="HrJ-Gb-pnN"/>
+                                    <constraint firstItem="0Ue-Od-tN3" firstAttribute="centerY" secondItem="X1B-mx-Buz" secondAttribute="centerY" id="PdU-J9-ECa"/>
+                                    <constraint firstItem="0Ue-Od-tN3" firstAttribute="centerX" secondItem="X1B-mx-Buz" secondAttribute="centerX" id="Vpa-rj-9cM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5Nb-YJ-w9e" secondAttribute="bottom" constant="20" id="G15-um-E4z"/>
+                            <constraint firstItem="c3V-Mt-Jn9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="Hby-Bi-WhU"/>
+                            <constraint firstItem="wmf-TM-urD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="Hpe-2T-6de"/>
+                            <constraint firstItem="X1B-mx-Buz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ThP-Mg-uoZ"/>
+                            <constraint firstItem="gLN-ie-Yqy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="ZdB-re-o5P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gLN-ie-Yqy" secondAttribute="bottom" constant="20" id="rDj-8S-tq0"/>
+                            <constraint firstItem="X1B-mx-Buz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tAd-hZ-RUt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5Nb-YJ-w9e" secondAttribute="trailing" constant="28" id="wZP-Z2-Q3w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c3V-Mt-Jn9" secondAttribute="trailing" constant="28" id="xGp-kI-kww"/>
+                            <constraint firstItem="wmf-TM-urD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="xHr-TD-8MF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
