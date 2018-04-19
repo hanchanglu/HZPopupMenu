@@ -1,3 +1,4 @@
+  
 
 Pod::Spec.new do |s|
 
@@ -13,7 +14,7 @@ Pod::Spec.new do |s|
   # s.description  = <<-DESC
   #                 DESC
 
-  s.homepage     = "https://github.com/houzhiwei55/HZPopupMenu.git"
+  s.homepage     = "https://github.com/houzhiwei55/HZPopupMenu"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -121,3 +122,7 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
 end
+
+
+
+  
